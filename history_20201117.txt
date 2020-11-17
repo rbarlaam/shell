@@ -1,0 +1,309 @@
+echo Hello world
+echo "Hello world"
+echo Hello ; echo hello2
+echo "Hello ; echo hello2"
+echo 'Hello , echo hello2'
+echo $SHELL
+echo "$SHELL"
+echo "$shell"
+echo '$SHELL'
+echo`date`
+echo `date`
+date
+SHELL=HELLO
+HELLO
+SHELL
+echo $SHELL
+printenv
+history
+gedit .history
+echo "world \\
+is on the same line"
+"control C"
+echo "control C sirve para parar un comando"
+echo $SHELD
+echo "Hello World"
+echo "This is \n new line"
+echo "This is \tnew line"
+echo "This is \nnew line"
+echo "This is \\ new line"
+echo "This is \\\ new line"
+echo this \; echo that
+echo 'hello world'
+echo "this is text with "comillas dobles"\
+\
+echo "this is text with \"comillas dobles"\
+\
+\
+echo 'hello world'
+"usamos Ctrl + C cuando nos sale el dquote para cancelarlo"
+echo "usamos Ctrl + C cuando nos sale el dquote para cancelarlo"
+echo -e this ; echo that
+echo "asi se ejecuta un comando $(comand)"
+cat /proc/cpuinfo
+cat /etc/os-release
+cd Data/shell
+cd
+cd Data/shell
+cd
+cd Data/shell
+cd ../
+cd shell
+cd ../shell
+cd Data/chell/
+cd
+cd -
+bash
+cd ../
+cd -
+cd
+exit
+cat Text_example.txt
+cat -n Text_example.txt
+cat -n Text_example.txt Text_example.txt Text_example.txt
+cat Text_example.txt
+cd
+cat
+cat Data/shell/Text_example.txt
+cat ./Data/shell/Text_example.txt
+cd Data
+cat ~/Data/shell/Text_example.txt
+cd
+cat ~/Data/shell/Text_example.txt
+cd Data
+pwd
+cd
+pwd
+cat /home/dsc/Data/shell/Text_example.txt
+-n cat /home/dsc/Data/shell/Text_example.txt
+ cat -n  /home/dsc/Data/shell/Text_example.txt
+ cat -n  /home/dsc/Data/shell/Text_example.txt Data/opentraveldata/optd_aircraft.csv
+ls
+cd Data/challenge
+ls
+ls Documents
+cd
+ls Documents
+~/anaconda3
+cd
+cd anaconda3
+ls
+ls -s
+ls - 1s
+ls -1 -s
+cd
+ls
+ls -a
+echo " los que empiezan por \. son los ficheros \\ directorios ocultos "
+ls -la
+cd ../
+ls
+ls -a
+ls -aSr
+cd
+ls -aSr
+ls -aSlr
+touch file00
+ls file00
+ls -l file00
+chmod u+x,g-w,o+w file00
+ls -l file00
+rwx = 101 = 2(2)*1 +2(1)*0 +2(0)*1 = 5
+chmod 777 file00
+ls -l file00
+chmod 770 file00
+ls -l file00
+chmod g+w file00
+chmod g-w file00
+file00
+./file00
+mkdir my_first_dir
+ls -l
+mkdir my_first_dir
+mkdir my_first_dir2 my_first _dir3
+ls - l
+ls -l
+rmdir my_first _dir3
+ls -l
+mkdir my_first_dir3
+ls -l
+rm my_first_dir
+rm file00
+rm -n  my_first_dir2
+cp fichero2 fichero3
+cp my_first_dir my_first_copy
+-r cp my_first_dir my_first_copy
+cp -r cp my_first_dir my_first_copy
+cp -r my_first_dir my_first_copy
+ls
+rm -r my_first_dir2
+rm -r my_first_dir3
+ls
+ls -l
+cp fichero01
+fichero01
+touch file01 file02
+ls
+mkdir first_dir
+touch text_file.txt
+ls
+chmod u+x, o+w text_file.txt
+chmod u+x,o+w text_file.txt
+cat my_first_dir
+cd my_first_dir
+mkdir sub1 sub2 text_file
+ls
+cd
+cp text_file.txt my_first_dir
+ls
+chmod
+ls first_dir
+"solucion"
+echo "solucion"
+touch first_dir/text_file.txt
+ls first_dir
+ls
+cd Data/shell
+chmod
+cd
+cd first_dir
+ls
+cd
+cd my_first_dir
+ls
+cp text_file.txt sub1
+ls sub1
+mv text_file.txt sub2/text_file.txt.2
+cp -r sub1 sub3
+ls
+mv sub2/text_file.txt.2 sub2/text_file.txt.backup
+mv sub2/text_file.txt.backup ./.text_file.txt.backup
+ls
+ls -a
+rm -r sub2
+ls
+git
+cd
+git
+git config --global user.name "Ramon Barlam"
+git config --global user.email "ramonbarlamfernandez@gmail.com"
+cat .gitconfig
+gedit .gitedit
+gedit .gitconfig
+cat .history
+cat .history > 2020-11-11.txt
+cat .history
+echo $HOSTNAME
+pwd
+whoami
+echo "# shell" >> README.md
+git init
+git add README.md
+git status
+cd git
+ll
+bash
+clear
+echo
+clear
+echo "Hola mundo"
+echo "Hola mundo" > pp.txt
+head pp.txt
+echo "Hola mundo" >> pp.txt
+head pp.txt
+echo "Adios mundo cruel" > pp.txt
+head pp.txt
+exit
+echo history
+echo .history
+history
+touch pp2.txt
+touch pp.txt
+gedit pp3.txt
+ll pp3.txt
+head pp3.txt
+history-i
+echo history-i
+echo $HISTFILE
+tail -n 3 /home/dsc/.history
+ll .history
+ls .history
+ls .history 
+ls -l .history 
+mkdir folder1
+mkdir folder 2
+mkdir folder2
+touch folder1/one
+touch folder2/two
+rsync -avz folder1/one folder2
+ll folder2
+echo "first line">>folder1/one
+head folder1/one
+head folder2/one
+rsync -avz folder1/one folder2
+head folder2/one
+man head
+man avz
+touch folder1/oneB
+rsync -avz folder1/one folder2
+ll folder2
+touch folder2/three
+ll folder2
+ll folder1
+rsync -avz folder1 folder2
+clear
+ll folder2
+rsync -avz folder1/ folder2
+ll folder2
+rm -r folder2/folder1
+ll folder2
+ls folder1
+ls folder2
+echo $HISTFILE
+"echo $HISTFILE"
+$HISTFILE
+history
+history -n 50
+cd folder1
+.cd
+cd..
+cd ..
+cd git
+cd ..
+cd git
+ll
+cd --
+cp /home/dsc/ .history
+ll
+ls -a
+cd git
+ls -a
+git status
+cp /home/dsc/2020-11-11.txt
+pwd
+git push origin master
+touch history_20201117.txt
+git push origin master
+git add history_20201117.txt
+git commit -m "historial 20201117"
+git push origin master
+git status
+man history
+history -f
+history -n 2
+cp ~/.history history_20201117.txt
+cd
+cd data
+cd Data
+cd shell
+ll
+wc Text_example.txt
+head -n 8 Text_example.txt
+wc -w Text_example.txt
+wc -l Text_example.txt
+wc -c Text_example.txt
+git add history_20201117.txt
+cd ~
+ls -a
+echo $HISTFILE
+cp $HISTFILE ~/git/history_20201117.txt
