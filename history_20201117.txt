@@ -307,3 +307,57 @@ cd ~
 ls -a
 echo $HISTFILE
 cp $HISTFILE ~/git/history_20201117.txt
+cd git
+git add history_20201117.txt
+git commit -m "historial 20201117"
+git push origin master
+git status
+cd ..
+cat text_file.txt | wc
+cat text_file.txt | wc -l
+wc text_file.txt
+echo "How much line/words/letters do I have?" | wc
+cd Data/opentraveldata
+tail -c -1k optd_aircraft.csv | wc
+wc -l < hello-world
+cd ..
+ls
+cd Data/opentraveldata
+ls
+ls -n
+head
+ls -lrt
+ls -lrt head
+ls -lrt | head -n 1
+ls -lrt | tail -n 1
+ls -sS
+ls -sSl
+ls -sSlr | tail n -1 > largest file
+ls -sSlr | tail -n 1 > largest_file
+cat largest_file
+history
+cd ..
+head -n 5 Data/shell/Finn.txt | wc -w
+man cp
+cat -n Data/shell/Finn.txt \ head -n 3
+cp Data/shell/Text_example.txt > "Text_Example_wlines" | wc
+cp Data/shell/Text_example.txt >"Text_Example_wlines | wc
+cp Data/shell/Text_example.txt > Text_Example_wlines | wc
+cp Data/shell/Text_example.txt < Text_Example_wlines | wc
+history -i | grep rsync
+cat ~/history| grep rsync
+cat ~/.history| grep rsync
+cat ~/.history 
+cp ~/.history > git/history_20201117.txt
+cp ~/.history >> git/history_20201117.txt
+cd ..
+echo "kk"
+cd home/dsc/Data/shell
+head Text_example.txt
+pwd
+cd ..
+cd..
+cd ..
+cd ~/git
+cat ~/.history| grep cp
+cp $HISTFILE ~/git/history_20201117.txt
