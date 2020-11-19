@@ -361,3 +361,52 @@ cd ..
 cd ~/git
 cat ~/.history| grep cp
 cp $HISTFILE ~/git/history_20201117.txt
+ls -lrt
+git add history_20201117.txt
+git commit -m "history of the day updated"
+git push origin master
+exit
+echo 'My home directory is $HOME'
+echo "My home directory is $HOME"
+echo `date`
+echo "date"
+echo $date
+echo "date"
+echo "$(date)"
+echo "hola \nmundo"
+man bash
+bas hola
+bash hola
+"Hello world"
+echo "hola \nmundo"
+echo 'echo "hola \nmundo"' > holamundo.sh
+ls -lrth | tail -n 1
+vim holamundo.sh
+ls -lrth | tail -n 1
+gedit holamundo.sh
+vim holamundo.sh
+bash holamundo.sh
+which bash
+ls -lrth | tail -n 1
+vim holamundo.sh
+./holamundo.
+chmod +x holamundo.sh
+bash holamundo.sh
+vim holamundo.sh
+./holamundo.sh
+bash holamundo.sh
+cat hello-world.py
+echo "# Team5" README.md
+echo "# Team5" >> README.md
+mkdir GIT_TEAM5
+cd GIT_TEAM5
+echo "# Team5" >> README.md
+git init
+gedit README.md
+git add README.md
+git commit -m "first commit"
+git push -u origin master
+git push -u master
+git remote add origin https://github.com/rbarlaam/TEAM5.git
+git push -u origin master
+cp $HISTFILE ~/git/history_20201117.txt
